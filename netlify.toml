@@ -1,0 +1,56 @@
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+	cache-control = '''
+    public,
+	max-age=34560000'''
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+	cache-control = '''
+    public,
+	max-age=34560000'''
+[[headers]]
+  for = "/*.ttf"
+  [headers.values]
+	cache-control = '''
+    public,
+	max-age=34560000'''
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+	cache-control = '''
+    public,
+	max-age=34560000'''
+[[headers]]
+  for = "/*.jpeg"
+  [headers.values]
+	cache-control = '''
+    public,
+	max-age=34560000'''
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+  cache-control = '''
+    public,
+    max-age=0,
+    must-revalidate,
+    no-cache'''
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    Content-Security-Policy = "frame-src 'self'; frame-ancestors 'self'"
+
+[[redirects]]
+  from = "/*"
+  to = "https://halofi.me/restricted"
+  status = 301
+  force = true
+  conditions = {Country = ["GB", "CD", "IR", "RU", "HT", "LY", "IQ", "GN", "GW", "LB", "ML", "MM", "NI", "SO", "SS", "SD", "SY", "VE", "YE", "ZW"]}
+
+[build.environment]
+# set TERM variable for terminal output
+TERM = "xterm"
+
