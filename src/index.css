@@ -1,0 +1,150 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+  padding: 0rem;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height:10vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+input {
+  line-height: 2em;
+  min-width: 300px;
+  max-width: 90%;
+}
+
+p,
+a {
+  line-height: 1em;
+  font-size: 14px;
+  margin: 0.5em 0em;
+}
+
+p.lighter {
+  font-weight: normal;
+  color: brown;
+}
+
+p.bold {
+  font-weight: bolder;
+  margin: 1em 0em;
+}
+
+p.error {
+  color: red;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  /* background-color: #1a1a1a; */
+  /* background-color: orange; */
+  background-color: rgb(243, 194, 104);
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: orange;
+}
+button:focus,
+button:focus-visible {
+  outline: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: rgb(243, 194, 104);
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  border: 1px solid black;
+}
+
+th.center,
+td.center {
+  text-align: center;
+  border: 1px solid black;
+  padding: 2px 5px;
+  font-size: 14px;
+}
+
+
+th.left,
+td.left {
+  text-align: left;
+  border: 1px solid black;
+  padding: 2px 5px;
+  font-size: 14px;
+}
+
+td.ok {
+  color: green;
+}
+
+td.pending {
+  color: red;
+}
+
+.logo {
+  padding: 0.5em 0em;
+  height: 2.5em;
+}
+
+.button-group {
+  margin: 15px 0px;
+  button {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.instructions {
+  margin-bottom: 1.5em;
+  a {
+    margin: 10px;
+  }
+}
