@@ -23,7 +23,7 @@ const NETWORKS = {
   },
   8453: {
     name: 'Base',
-    explorers: [{ name: 'BaseScan', url: 'https://basescan.com/address/' }],
+    explorers: [{ name: 'BaseScan', url: 'https://basescan.org/address/' }],
   },
 };
 
