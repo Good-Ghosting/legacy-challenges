@@ -45,10 +45,10 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://halofi.me/restricted"
+  to = "https://halofi.me/public/restricted"
   status = 301
   force = true
-  conditions = {Country = ["GB", "CD", "IR", "RU", "HT", "LY", "IQ", "GN", "GW", "LB", "ML", "MM", "NI", "SO", "SS", "SD", "SY", "VE", "YE", "ZW"]}
+  conditions = {Country = ["CD", "IR", "RU", "HT", "LY", "IQ", "GN", "GW", "LB", "ML", "MM", "NI", "SO", "SS", "SD", "SY", "VE", "YE", "ZW"]}
 
 [build.environment]
 # set TERM variable for terminal output

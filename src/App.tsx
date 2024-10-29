@@ -59,39 +59,85 @@ function App() {
 
   return (
     <div>
-      <a
-        href="https://halofi.medium.com/2069ea101b91?source=friends_link&sk=970b9f61910448de19613431aa5c28c0"
-        target="_blank"
-      >
-        <img className="logo" src={logo} alt="logo" />
-      </a>
-      <p className="lighter">HaloFi Challenges is no longer available.</p>
-      <p className="lighter">
-        This Community Legacy site displays a static list (snapshot) of
-        Challenges for a given wallet address.
+      {/* Page Header section */}
+      <img className="logo" src={logo} alt="logo" />
+      <h1>
+        {`Sadly HaloFi is no `}
+        <a
+          href="https://medium.com/halofi/halofi-farewell-a-message-to-our-community-2069ea101b91?source=friends_link&sk=970b9f61910448de19613431aa5c28c0"
+          target="_blank"
+          className="h1"
+        >
+          {`longer available.`}
+        </a>
+      </h1>
+
+      {/* HaloFi Save Section */}
+      <h2>HaloFi Save</h2>
+      <p>
+        <b>For HaloFi Save users, please withdraw your funds via:</b>
       </p>
-      <p className="lighter">
-        Withdrawals performed after the snapshot are NOT reflected in the list
-        below.
+      <div>
+        <p>
+          <a href="https://app.moola.market/" target="_blank">
+            {`Moola on Celo`}
+          </a>
+          {` | `}
+          <a
+            href="https://celoscan.io/address/0x970b12522CA9b4054807a2c5B736149a5BE6f670"
+            target="_blank"
+          >
+            {`Moola Smart Contract`}
+          </a>
+        </p>
+
+        <p>
+          <a href="https://app.beefy.com" target="_blank">
+            {`Beefy on Base`}
+          </a>
+          {` | `}
+          <a
+            href="https://basescan.org/address/0xef6ed674486e54507d0f711c0d388bd8a1552e6f"
+            target="_blank"
+          >
+            {`Beefy Smart Contract`}
+          </a>
+        </p>
+
+        <p>
+          <a href="https://app.aave.com" target="_blank">
+            {`AaveV3 on Base`}
+          </a>
+          {` | `}
+          <a
+            href="https://basescan.org/address/0xa238dd80c259a72e81d7e4664a9801593f98d1c5"
+            target="_blank"
+          >
+            {`AaveV3 Smart Contract`}
+          </a>
+        </p>
+      </div>
+
+      {/* HaloFi Challenges Section */}
+      <h2>HaloFi Challenges</h2>
+      <p>
+        <b>
+          This Community Legacy site displays a static list (snapshot) of
+          Challenges for a given wallet address.
+        </b>
+      </p>
+      <p>
+        <b>
+          Withdrawals performed after the snapshot was taken are NOT reflected
+          in the list below.
+        </b>
       </p>
 
       <div className="instructions">
-        <p className="bold">Use the steps below to list your Challenges:</p>
+        <p>Use the steps below to list your Challenges:</p>
         <p>1. Enter your wallet address</p>
         <p>2. Click "Show challenges"</p>
         <p>3. Withdraw funds using the block explorer - only if needed</p>
-      </div>
-      <div className="instructions">
-        <p>Not sure what to do? Read or watch the community tutorials below:</p>
-        <a href="https://halofi.medium.com/" target="_blank">
-          Blog Tutorial
-        </a>
-        <a
-          href="https://www.youtube.com/channel/UC3f3s4Xv073AJQtYcmKoH7A/videos"
-          target="_blank"
-        >
-          Video Tutorial
-        </a>
       </div>
 
       <input
@@ -158,6 +204,23 @@ function App() {
           </tbody>
         </table>
       )}
+
+      {/* Page Bottom Section */}
+      <div className="instructions">
+        <p>Not sure what to do? Read or watch the community tutorials below:</p>
+        <a
+          href="https://medium.com/halofi/halofi-legacy-support-continue-to-withdraw-your-funds-9fc1a2039fc1?source=friends_link&sk=e6e7230cae6a735334294ba213adf8df"
+          target="_blank"
+        >
+          Blog Tutorial
+        </a>
+        <a href="https://youtu.be/yQxBKxHl0VU" target="_blank">
+          Save Video Tutorial
+        </a>
+        <a href="https://youtu.be/OKR-a4boGYg" target="_blank">
+          Challenges Video Tutorial
+        </a>
+      </div>
     </div>
   );
 }
