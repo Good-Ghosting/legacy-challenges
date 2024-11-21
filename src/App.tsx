@@ -62,7 +62,7 @@ function App() {
       {/* Page Header section */}
       <img className="logo" src={logo} alt="logo" />
       <h1>
-        {`Sadly HaloFi is no `}
+        {`Sadly HaloFi (prev. GoodGhosting) is no `}
         <a
           href="https://medium.com/halofi/halofi-farewell-a-message-to-our-community-2069ea101b91?source=friends_link&sk=970b9f61910448de19613431aa5c28c0"
           target="_blank"
@@ -220,6 +220,23 @@ function App() {
         <a href="https://youtu.be/OKR-a4boGYg" target="_blank">
           Challenges Video Tutorial
         </a>
+      </div>
+      <div className="instructions">
+        <i>
+          <p>
+            <b>Disclaimer: </b>
+            Site <u>https://halofi.me</u> available till 20-Sep-2029.
+          </p>
+          <p>
+            More info? Check the
+            <a
+              href="https://github.com/Good-Ghosting/legacy-challenges"
+              target="_blank"
+            >
+              Github Public Archive Repository
+            </a>
+          </p>
+        </i>
       </div>
     </div>
   );
