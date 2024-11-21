@@ -6,7 +6,7 @@ It provides guidance for users to withdraw their funds via descentralized infras
 ## Withdrawal Links
 To allow users to withdraw funds from the descentralized infrastructure HaloFi products used, users can find use one of the following options:
 - [Legacy Site - hosted on halofi.me](https://halofi.me) - available till 20-Sep-2029
-- [Legacy Site - descentralized hosted on IPFS](https://ipfs.io) - available via IPFS infrastructure for as long as the IPFS descentralized network operates
+- [Legacy Site - descentralized hosted on IPFS](https://ipfs.io/ipfs/bafybeicxrlieki626whgkmmtszi4obd3g73ux77wbk2mvja6rg377dqynq) - available via IPFS infrastructure for as long as the IPFS descentralized network operates. IPFS Hash: `bafybeicxrlieki626whgkmmtszi4obd3g73ux77wbk2mvja6rg377dqynq`
 
 ## Other Links
 For additional information:
