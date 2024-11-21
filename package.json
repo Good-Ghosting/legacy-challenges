@@ -1,7 +1,9 @@
 {
   "name": "halofi-community-legacy",
-  "private": true,
-  "version": "0.0.0",
+  "description": "Community Archive|Legacy Portal with instructions and information for descentralized access to HaloFi Challenges and HaloFi Save - HaloFi (prev. GoodGhosting)",
+  "private": false,
+  "license": "MIT",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
